@@ -3,7 +3,7 @@ let mode = "";
 
 let game = (mode) => {
 
-    swith (mode) {
+    switch (mode) {
         case 'none':
             mode_none();
             break;
